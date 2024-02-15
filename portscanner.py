@@ -9,7 +9,7 @@ def scan(target, port):
         testsock.connect((domain, port))
         print(f"{port} is open")
     except:
-        print("Couldn't connect")
+        print("Port is closed")
         pass
     finally:
         testsock.close()
