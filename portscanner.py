@@ -21,8 +21,8 @@ domain = input("Enter Target Domain: ")
 IPaddr = socket.gethostbyname(domain)
 print(IPaddr)
 
-#for portnum in range(1000):
-scan(domain, 80)
+for portnum in range(1000):
+    scan(domain, portnum)
 
 
 
