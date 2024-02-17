@@ -1,0 +1,9 @@
+[+] Enter Target Domain: scanme.nmap.org
+[+] Enter Port(s) you want to scan: 20 21 80 443
+[-] Port 20 is closed.
+[-] Port 21 is closed.
+[-] Port 80 is open (http)
+[-] Port 443 is closed.
+[-] Scan Complete
+[-] Open Ports: 
+[80]
